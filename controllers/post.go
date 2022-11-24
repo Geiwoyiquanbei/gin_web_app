@@ -97,3 +97,19 @@ func GetPostListHandler2(c *gin.Context) {
 	}
 	ResponseSuccess(c, data)
 }
+func GetCommunityPostListHandler(c *gin.Context) {
+	//get 请求参数 ：/api/v1/post2?offset=1&limit=10&order=time&community_id=1
+	p := &models.ParamCommunityPostList{}
+	err2 := c.ShouldBindQuery(p)
+	if err2 != nil {
+		zap.L().Error("GetPostListHandler2 with invalid param", zap.Error(err2))
+		ResponseError(c, CodeInvalidParam)
+		return
+	}
+	//c.ShouldBindJSON() 如果请求中携带的json格式数据，才能用这个方法获取数据
+	data, err := logic.GetCommunityList2(p)
+	if err != nil {
+		ResponseError(c, CodeServerBusy)
+	}
+	ResponseSuccess(c, data)
+}

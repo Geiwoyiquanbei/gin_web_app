@@ -420,3 +420,5 @@
 {"level":"INFO","time":"2022-11-23T12:00:16.106+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=3&order=time","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0026634}
 {"level":"INFO","time":"2022-11-23T12:00:27.180+0800","caller":"web_app/main.go:78","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2022-11-23T12:00:27.191+0800","caller":"web_app/main.go:87","msg":"Server exiting"}
+{"level":"INFO","time":"2022-11-24T11:48:23.065+0800","caller":"web_app/main.go:78","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-24T11:48:23.109+0800","caller":"web_app/main.go:87","msg":"Server exiting"}
