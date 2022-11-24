@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"fmt"
 	"strconv"
 	"web_app/logic"
 	"web_app/models"
@@ -85,6 +86,7 @@ func GetPostListHandler2(c *gin.Context) {
 		Order: orderTime,
 	}
 	err2 := c.ShouldBindQuery(p)
+	fmt.Println(p)
 	if err2 != nil {
 		zap.L().Error("GetPostListHandler2 with invalid param", zap.Error(err2))
 		ResponseError(c, CodeInvalidParam)
@@ -98,7 +100,7 @@ func GetPostListHandler2(c *gin.Context) {
 	ResponseSuccess(c, data)
 }
 func GetCommunityPostListHandler(c *gin.Context) {
-	//get 请求参数 ：/api/v1/post2?offset=1&limit=10&order=time&community_id=1
+	//get 请求参数 ：/api/v1/post3?offset=1&limit=10&order=time&community_id=1
 	p := &models.ParamCommunityPostList{}
 	err2 := c.ShouldBindQuery(p)
 	if err2 != nil {

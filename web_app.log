@@ -422,3 +422,346 @@
 {"level":"INFO","time":"2022-11-23T12:00:27.191+0800","caller":"web_app/main.go:87","msg":"Server exiting"}
 {"level":"INFO","time":"2022-11-24T11:48:23.065+0800","caller":"web_app/main.go:78","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2022-11-24T11:48:23.109+0800","caller":"web_app/main.go:87","msg":"Server exiting"}
+{"level":"INFO","time":"2022-11-24T15:31:15.541+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T15:31:24.320+0800","caller":"logger/logger.go:79","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0192869}
+{"level":"WARN","time":"2022-11-24T15:31:46.000+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:31:46.001+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:31:46.001+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=3&order=time","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0274233}
+{"level":"INFO","time":"2022-11-24T15:32:09.969+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=3&order=time&community_id=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0104026}
+{"level":"INFO","time":"2022-11-24T15:33:31.477+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=3&order=time&community_id=0","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0006461}
+{"level":"INFO","time":"2022-11-24T15:33:32.980+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=3&order=time&community_id=0","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T15:38:31.218+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T15:38:49.569+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0009956}
+{"level":"INFO","time":"2022-11-24T15:38:55.183+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T15:39:23.829+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T15:40:24.236+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0005203}
+{"level":"INFO","time":"2022-11-24T15:40:58.271+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T15:41:28.528+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T15:42:48.362+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0005975}
+{"level":"INFO","time":"2022-11-24T15:43:42.460+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0948634}
+{"level":"INFO","time":"2022-11-24T15:43:50.930+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000434}
+{"level":"INFO","time":"2022-11-24T15:43:55.926+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=3&order=time&community_id=0","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0009056}
+{"level":"INFO","time":"2022-11-24T15:44:00.278+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=3&order=time&community_id=0","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0006931}
+{"level":"INFO","time":"2022-11-24T15:44:11.996+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=3&order=time&community_id=0","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0000973}
+{"level":"WARN","time":"2022-11-24T15:44:17.157+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:44:17.158+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:44:17.158+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:44:17.158+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=3&order=time","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0080557}
+{"level":"WARN","time":"2022-11-24T15:44:39.332+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:44:39.333+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:44:39.333+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:44:39.334+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=10&order=time","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0047808}
+{"level":"WARN","time":"2022-11-24T15:44:45.495+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:44:45.495+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:44:45.496+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:44:45.496+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=10&order=time","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0038463}
+{"level":"WARN","time":"2022-11-24T15:44:51.057+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:44:51.058+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:44:51.059+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:44:51.059+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=10","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0038839}
+{"level":"WARN","time":"2022-11-24T15:44:58.332+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:44:58.332+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:44:58.333+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:44:58.333+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=10","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0041785}
+{"level":"WARN","time":"2022-11-24T15:45:19.129+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:45:19.130+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:45:19.130+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:45:19.130+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=10&order=c=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0034434}
+{"level":"WARN","time":"2022-11-24T15:45:34.690+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:45:34.691+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:45:34.691+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=10&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0030735}
+{"level":"WARN","time":"2022-11-24T15:46:40.107+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:40.108+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:40.109+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:40.110+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:40.112+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:40.112+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:40.113+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:40.114+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:40.115+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:46:40.115+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"page=1&size=10","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0547987}
+{"level":"WARN","time":"2022-11-24T15:46:59.755+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:59.756+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:59.757+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:59.757+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:59.758+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:59.759+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:59.759+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:59.759+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:59.760+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:59.761+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:59.761+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:59.762+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:59.763+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:46:59.763+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:46:59.763+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"page=1&size=15","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0100693}
+{"level":"WARN","time":"2022-11-24T15:47:22.905+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.905+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.917+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.918+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.922+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.927+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.928+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.931+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.932+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.933+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.934+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.936+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.937+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.938+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:47:22.939+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:47:22.939+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"page=1&size=20","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0366329}
+{"level":"INFO","time":"2022-11-24T15:48:48.554+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0008768}
+{"level":"INFO","time":"2022-11-24T15:48:57.498+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T15:49:09.893+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T15:49:19.155+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0029048}
+{"level":"WARN","time":"2022-11-24T15:49:43.494+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.495+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.496+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.496+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.498+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.499+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.499+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.500+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.501+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.502+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.502+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.503+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.504+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.504+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:49:43.505+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:49:43.505+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"page=1&size=20","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0140373}
+{"level":"INFO","time":"2022-11-24T15:50:38.343+0800","caller":"logger/logger.go:79","msg":"/api/v1/vost","status":404,"method":"POST","path":"/api/v1/vost","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T15:50:40.475+0800","caller":"logger/logger.go:79","msg":"/api/v1/vost","status":404,"method":"POST","path":"/api/v1/vost","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T15:50:47.786+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0009085}
+{"level":"INFO","time":"2022-11-24T15:51:39.746+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0010003}
+{"level":"WARN","time":"2022-11-24T15:51:43.282+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.283+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.283+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.284+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.284+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.285+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.286+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.286+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.287+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.287+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.288+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.289+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.289+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.290+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:43.290+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:51:43.291+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"page=1&size=20","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0105794}
+{"level":"WARN","time":"2022-11-24T15:51:47.820+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.820+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.822+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.822+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.823+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.824+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.825+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.825+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.826+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.826+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.827+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.827+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.828+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.828+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:47.829+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:51:47.830+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"page=1&size=20","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0126651}
+{"level":"WARN","time":"2022-11-24T15:51:48.787+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.788+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.788+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.789+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.790+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.791+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.791+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.792+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.793+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.793+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.794+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.794+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.795+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.796+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:48.797+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:51:48.798+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"page=1&size=20","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0129883}
+{"level":"WARN","time":"2022-11-24T15:51:49.363+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.363+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.364+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.365+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.366+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.366+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.367+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.367+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.368+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.368+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.368+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.369+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.370+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.371+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:49.371+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:51:49.372+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"page=1&size=20","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0114289}
+{"level":"WARN","time":"2022-11-24T15:51:53.041+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.042+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.042+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.043+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.044+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.045+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.046+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.047+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.047+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.048+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.049+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.049+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.050+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.051+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:51:53.052+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:51:53.052+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"page=1&size=20","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0132131}
+{"level":"ERROR","time":"2022-11-24T15:52:02.463+0800","caller":"controllers/vote.go:33","msg":"logic.PostVote error"}
+{"level":"INFO","time":"2022-11-24T15:52:02.463+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0007633}
+{"level":"ERROR","time":"2022-11-24T15:52:04.379+0800","caller":"controllers/vote.go:33","msg":"logic.PostVote error"}
+{"level":"INFO","time":"2022-11-24T15:52:04.379+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0009983}
+{"level":"ERROR","time":"2022-11-24T15:52:05.158+0800","caller":"controllers/vote.go:33","msg":"logic.PostVote error"}
+{"level":"INFO","time":"2022-11-24T15:52:05.158+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0001087}
+{"level":"WARN","time":"2022-11-24T15:52:07.202+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.204+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.204+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.205+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.207+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.207+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.208+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.208+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.209+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.209+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.210+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.211+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.211+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.211+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:07.212+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:52:07.212+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"page=1&size=20","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0121298}
+{"level":"WARN","time":"2022-11-24T15:52:14.881+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.882+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.882+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.883+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.884+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.885+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.886+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.886+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.887+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.888+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.888+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.889+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.889+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.890+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:52:14.891+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:52:14.891+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"page=1&size=20","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0138105}
+{"level":"ERROR","time":"2022-11-24T15:53:23.000+0800","caller":"controllers/vote.go:33","msg":"logic.PostVote error"}
+{"level":"INFO","time":"2022-11-24T15:53:23.038+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.037966}
+{"level":"WARN","time":"2022-11-24T15:55:14.842+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:55:14.843+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:55:14.843+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:55:14.844+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0052722}
+{"level":"WARN","time":"2022-11-24T15:55:34.494+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:55:34.495+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:55:34.495+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0029905}
+{"level":"INFO","time":"2022-11-24T15:56:29.754+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=score&community_id=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0000759}
+{"level":"WARN","time":"2022-11-24T15:59:52.725+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T15:59:52.726+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T15:59:52.726+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0049081}
+{"level":"ERROR","time":"2022-11-24T15:59:57.263+0800","caller":"controllers/vote.go:33","msg":"logic.PostVote error"}
+{"level":"INFO","time":"2022-11-24T15:59:57.263+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0006225}
+{"level":"INFO","time":"2022-11-24T16:00:00.195+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000535}
+{"level":"INFO","time":"2022-11-24T16:00:05.599+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0002289}
+{"level":"WARN","time":"2022-11-24T16:00:08.833+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T16:00:08.835+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T16:00:08.835+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0044096}
+{"level":"WARN","time":"2022-11-24T16:01:12.248+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T16:01:12.249+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T16:01:12.250+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0440842}
+{"level":"WARN","time":"2022-11-24T16:05:28.628+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T16:05:28.631+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T16:05:28.631+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0458665}
+{"level":"ERROR","time":"2022-11-24T16:05:32.080+0800","caller":"controllers/vote.go:33","msg":"logic.PostVote error"}
+{"level":"INFO","time":"2022-11-24T16:05:32.080+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0010734}
+{"level":"INFO","time":"2022-11-24T16:05:35.913+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0005955}
+{"level":"WARN","time":"2022-11-24T16:07:24.884+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T16:07:24.885+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T16:07:24.886+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0452678}
+{"level":"WARN","time":"2022-11-24T16:08:05.331+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T16:08:05.333+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T16:08:05.333+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0381806}
+{"level":"WARN","time":"2022-11-24T16:10:05.477+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T16:10:05.478+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T16:10:05.479+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0375979}
+{"level":"WARN","time":"2022-11-24T16:11:03.493+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T16:11:03.495+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T16:11:03.495+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0495678}
+{"level":"ERROR","time":"2022-11-24T16:13:20.576+0800","caller":"controllers/vote.go:33","msg":"logic.PostVote error"}
+{"level":"INFO","time":"2022-11-24T16:13:20.609+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.032855}
+{"level":"INFO","time":"2022-11-24T16:14:44.291+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.001257}
+{"level":"ERROR","time":"2022-11-24T16:16:05.656+0800","caller":"controllers/vote.go:33","msg":"logic.PostVote error"}
+{"level":"INFO","time":"2022-11-24T16:16:05.689+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0331501}
+{"level":"INFO","time":"2022-11-24T16:16:09.013+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0009759}
+{"level":"WARN","time":"2022-11-24T16:16:53.378+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T16:16:53.379+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T16:16:53.379+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0373763}
+{"level":"WARN","time":"2022-11-24T16:17:41.811+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T16:17:41.813+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T16:17:41.813+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0381366}
+{"level":"WARN","time":"2022-11-24T16:18:36.489+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T16:18:36.490+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T16:18:36.491+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0409378}
+{"level":"ERROR","time":"2022-11-24T16:21:25.436+0800","caller":"controllers/vote.go:33","msg":"logic.PostVote error"}
+{"level":"INFO","time":"2022-11-24T16:21:25.474+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0384205}
+{"level":"INFO","time":"2022-11-24T16:21:35.230+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0003415}
+{"level":"INFO","time":"2022-11-24T16:22:06.541+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0011318}
+{"level":"INFO","time":"2022-11-24T16:22:40.146+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.001032}
+{"level":"INFO","time":"2022-11-24T16:25:32.675+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0009572}
+{"level":"INFO","time":"2022-11-24T16:26:19.792+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0005863}
+{"level":"INFO","time":"2022-11-24T16:26:29.185+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0008456}
+{"level":"INFO","time":"2022-11-24T16:30:51.339+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0015469}
+{"level":"INFO","time":"2022-11-24T16:35:23.223+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0006448}
+{"level":"ERROR","time":"2022-11-24T16:35:27.390+0800","caller":"controllers/vote.go:33","msg":"logic.PostVote error"}
+{"level":"INFO","time":"2022-11-24T16:35:27.391+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0009807}
+{"level":"INFO","time":"2022-11-24T16:35:32.248+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0013558}
+{"level":"INFO","time":"2022-11-24T16:35:53.390+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0007846}
+{"level":"ERROR","time":"2022-11-24T16:36:09.535+0800","caller":"controllers/vote.go:33","msg":"logic.PostVote error"}
+{"level":"INFO","time":"2022-11-24T16:36:09.569+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0353668}
+{"level":"INFO","time":"2022-11-24T16:36:15.025+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0002906}
+{"level":"INFO","time":"2022-11-24T16:44:48.821+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0017866}
+{"level":"ERROR","time":"2022-11-24T16:48:06.306+0800","caller":"controllers/vote.go:33","msg":"logic.PostVote error"}
+{"level":"INFO","time":"2022-11-24T16:48:06.338+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.033159}
+{"level":"INFO","time":"2022-11-24T16:48:42.982+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0009805}
+{"level":"INFO","time":"2022-11-24T16:53:39.075+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0005094}
+{"level":"ERROR","time":"2022-11-24T16:57:13.492+0800","caller":"controllers/vote.go:33","msg":"logic.PostVote error"}
+{"level":"INFO","time":"2022-11-24T16:57:13.522+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0317018}
+{"level":"INFO","time":"2022-11-24T17:04:04.557+0800","caller":"logger/logger.go:79","msg":"/api/v1/vote","status":200,"method":"POST","path":"/api/v1/vote","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0010277}
+{"level":"WARN","time":"2022-11-24T17:04:16.463+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"WARN","time":"2022-11-24T17:04:16.464+0800","caller":"mysql/community.go:28","msg":"There is no community in db"}
+{"level":"INFO","time":"2022-11-24T17:04:16.464+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2/","status":200,"method":"GET","path":"/api/v1/posts2/","query":"page=1&size=20&order=score","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0042086}
+{"level":"INFO","time":"2022-11-24T17:04:24.982+0800","caller":"web_app/main.go:78","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-24T17:04:24.984+0800","caller":"web_app/main.go:87","msg":"Server exiting"}
+{"level":"INFO","time":"2022-11-24T17:16:13.408+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=score&community=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0011012}
+{"level":"INFO","time":"2022-11-24T17:16:17.721+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=score&community=0","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0009765}
+{"level":"INFO","time":"2022-11-24T17:16:23.178+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0006593}
+{"level":"INFO","time":"2022-11-24T17:17:20.566+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community=0","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0009755}
+{"level":"INFO","time":"2022-11-24T17:17:23.724+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community=3","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T17:17:25.688+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community=4","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0009194}
+{"level":"INFO","time":"2022-11-24T17:17:27.544+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0003094}
+{"level":"INFO","time":"2022-11-24T17:17:31.156+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community_id=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0010457}
+{"level":"INFO","time":"2022-11-24T17:17:33.749+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community_id=0","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0009266}
+{"level":"INFO","time":"2022-11-24T17:17:44.074+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community_id=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0008179}
+{"level":"INFO","time":"2022-11-24T17:18:56.966+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community_id=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0008651}
+{"level":"INFO","time":"2022-11-24T17:32:25.677+0800","caller":"logger/logger.go:79","msg":"/api/v1/login/post","status":404,"method":"POST","path":"/api/v1/login/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T17:32:27.403+0800","caller":"logger/logger.go:79","msg":"/api/v1/login/post","status":404,"method":"POST","path":"/api/v1/login/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T17:32:31.637+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0009745}
+{"level":"INFO","time":"2022-11-24T17:32:39.295+0800","caller":"logger/logger.go:79","msg":"/api/v1/login/login","status":404,"method":"POST","path":"/api/v1/login/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T17:32:40.794+0800","caller":"logger/logger.go:79","msg":"/api/v1/login/login","status":404,"method":"POST","path":"/api/v1/login/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T17:32:44.398+0800","caller":"logger/logger.go:79","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0022504}
+{"level":"INFO","time":"2022-11-24T17:33:04.819+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0}
+{"level":"INFO","time":"2022-11-24T17:33:27.942+0800","caller":"logger/logger.go:79","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.022561}
+{"level":"INFO","time":"2022-11-24T17:36:05.886+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community_id=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.001446}
+{"level":"INFO","time":"2022-11-24T17:47:37.108+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community_id=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0005222}
+{"level":"INFO","time":"2022-11-24T17:47:38.016+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community_id=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.000583}
+{"level":"INFO","time":"2022-11-24T17:47:38.607+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community_id=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0002451}
+{"level":"INFO","time":"2022-11-24T17:48:34.754+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts3/","status":200,"method":"GET","path":"/api/v1/posts3/","query":"page=1&size=20&order=time&community_id=1","ip":"127.0.0.1","user-agent":"Apifox/1.0.0 (https://www.apifox.cn)","errors":"","cost":0.0832602}
+{"level":"INFO","time":"2022-11-24T17:48:44.591+0800","caller":"web_app/main.go:78","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-24T17:48:44.592+0800","caller":"web_app/main.go:87","msg":"Server exiting"}

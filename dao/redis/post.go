@@ -25,7 +25,7 @@ func GetPostIDsInOrder(p *models.ParamPostList) ([]string, error) {
 func GetPostVoteData(ids []string) (data []int64, err error) {
 	pipeline := client.Pipeline()
 	for index, _ := range ids {
-		pipeline.ZCount(KeyPostVotedPrefix+ids[index], "1", "1")
+		pipeline.ZCount(GetRedisKey(KeyPostVotedPrefix+ids[index]), "1", "1")
 	}
 	exec, err := pipeline.Exec()
 	if err != nil {
@@ -45,10 +45,10 @@ func GetCommunityPostIDsInOrder(orderKey string, communtityID int64, page, size 
 	//利用缓存key 减少zinterstore 的执行次数
 	ckey := GetRedisKey(KeyCommunitySetPF + strconv.Itoa(int(communtityID)))
 	key := orderKey + strconv.Itoa(int(communtityID))
-	if client.Exists(orderKey).Val() < 1 {
+	if client.Exists(key).Val() < 1 {
 		client.ZInterStore(key, redis.ZStore{
 			Aggregate: "MAX",
-		}, GetRedisKey(KeyCommunitySetPF+ckey), orderKey)
+		}, ckey, orderKey)
 		client.Expire(key, 60*time.Second) //设置超时时间
 	}
 	return getIDsFormKey(key, page, size)

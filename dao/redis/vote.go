@@ -67,11 +67,9 @@ func VoteForPost(userID, postID string, value float64) error {
 	//2.更新分数
 	//先查当前用户之前的投票记录
 	ovalue := client.ZScore(GetRedisKey(KeyPostVotedPrefix+postID), userID).Val()
-
 	if ovalue == value {
 		return ErrVoteRepeat
 	}
-
 	var op float64 = 0
 	if value > ovalue {
 		op = 1
@@ -80,7 +78,6 @@ func VoteForPost(userID, postID string, value float64) error {
 	}
 	diff := math.Abs(ovalue - value)
 	pipeline.ZIncrBy(GetRedisKey(KeyPostScoreZSet), op*diff*scorePerVote, postID)
-
 	//3.记录该用户操作的记录
 	if value == 0 {
 		pipeline.ZRem(GetRedisKey(KeyPostVotedPrefix+postID), userID)
