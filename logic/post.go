@@ -92,7 +92,7 @@ func GetPostList2(p *models.ParamPostList) (data []*models.ApiPostDetail, err er
 	}
 	return data, nil
 }
-func GetCommunityList2(p *models.ParamCommunityPostList) (data []*models.ApiPostDetail, err error) {
+func GetCommunityList2(p *models.ParamPostList) (data []*models.ApiPostDetail, err error) {
 	orderkey := redis.GetRedisKey(redis.KeyPostTimeZSet)
 	if p.Order != "time" {
 		orderkey = redis.GetRedisKey(redis.KeyPostScoreZSet)

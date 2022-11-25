@@ -1,0 +1,264 @@
+basePath: /api/v1
+definitions:
+  controllers._ResponsePostList:
+    properties:
+      code:
+        allOf:
+        - $ref: '#/definitions/controllers.ResCode'
+        description: 状态码
+      data:
+        description: 数据内容
+        items:
+          $ref: '#/definitions/models.ApiPostDetail'
+        type: array
+      msg:
+        description: 信息
+        type: string
+    type: object
+  controllers._ResponseSuccessful:
+    properties:
+      code:
+        allOf:
+        - $ref: '#/definitions/controllers.ResCode'
+        description: 状态码
+      data:
+        description: 数据内容
+      msg:
+        description: 信息
+        type: string
+    type: object
+  controllers.ResCode:
+    enum:
+    - 1000
+    - 1001
+    - 1002
+    - 1003
+    - 1004
+    - 1005
+    - 1006
+    - 1007
+    type: integer
+    x-enum-varnames:
+    - CodeSuccess
+    - CodeInvalidParam
+    - CodeUserExist
+    - CodeUserNotExist
+    - CodeInvalidPassword
+    - CodeServerBusy
+    - CodeInvalidToken
+    - CodeneedLogin
+  models.ApiPostDetail:
+    properties:
+      author_id:
+        type: integer
+      authuor_name:
+        type: string
+      community_id:
+        type: integer
+      content:
+        type: string
+      create_time:
+        type: string
+      id:
+        type: integer
+      introduction:
+        type: string
+      name:
+        type: string
+      status:
+        type: integer
+      title:
+        type: string
+      votes:
+        type: integer
+    required:
+    - content
+    - title
+    type: object
+host: 127.0.0.1:8084
+info:
+  contact:
+    email: 914832432@qq.com
+    name: Geiwoyiquanbei
+    url: http://www.swagger.io/support
+  description: 网络论坛
+  license:
+    name: Api_support
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Gin_web_app
+  version: 这里写版本号
+paths:
+  /post:
+    post:
+      consumes:
+      - application/json
+      description: 可创建帖子
+      parameters:
+      - description: Bearer 用户令牌
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - in: query
+        name: author_id
+        type: integer
+      - in: query
+        name: community_id
+        type: integer
+      - in: query
+        name: content
+        required: true
+        type: string
+      - in: query
+        name: create_time
+        type: string
+      - in: query
+        name: id
+        type: integer
+      - in: query
+        name: status
+        type: integer
+      - in: query
+        name: title
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers._ResponseSuccessful'
+      security:
+      - ApiKeyAuth: []
+      summary: 创建帖子列表接口
+      tags:
+      - 创建帖子相关接口
+  /post/:id:
+    get:
+      consumes:
+      - application/json
+      description: 可按帖子id号来查询帖子内容
+      parameters:
+      - description: Bearer 用户令牌
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: 可以为空
+        in: query
+        name: community_id
+        type: integer
+      - description: 排序依据
+        example: score
+        in: query
+        name: order
+        type: string
+      - description: 页码
+        example: 1
+        in: query
+        name: page
+        type: integer
+      - description: 每页数据量
+        example: 10
+        in: query
+        name: size
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers._ResponsePostList'
+      security:
+      - ApiKeyAuth: []
+      summary: 获取帖子详细内容
+      tags:
+      - 帖子相关接口
+  /posts:
+    get:
+      consumes:
+      - application/json
+      description: 可按页码来查询帖子内容
+      parameters:
+      - description: Bearer 用户令牌
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: 可以为空
+        in: query
+        name: community_id
+        type: integer
+      - description: 排序依据
+        example: score
+        in: query
+        name: order
+        type: string
+      - description: 页码
+        example: 1
+        in: query
+        name: page
+        type: integer
+      - description: 每页数据量
+        example: 10
+        in: query
+        name: size
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers._ResponsePostList'
+      security:
+      - ApiKeyAuth: []
+      summary: 获取帖子列表
+      tags:
+      - 帖子相关接口
+  /posts2:
+    get:
+      consumes:
+      - application/json
+      description: 可按社区按时间或分数排序查询帖子列表接口
+      parameters:
+      - description: Bearer 用户令牌
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      - description: 可以为空
+        in: query
+        name: community_id
+        type: integer
+      - description: 排序依据
+        example: score
+        in: query
+        name: order
+        type: string
+      - description: 页码
+        example: 1
+        in: query
+        name: page
+        type: integer
+      - description: 每页数据量
+        example: 10
+        in: query
+        name: size
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers._ResponsePostList'
+      security:
+      - ApiKeyAuth: []
+      summary: 升级版帖子列表接口
+      tags:
+      - 帖子相关接口
+swagger: "2.0"

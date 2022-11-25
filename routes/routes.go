@@ -3,10 +3,14 @@ package routes
 import (
 	"net/http"
 	"web_app/controllers"
+	_ "web_app/docs" // 千万不要忘了导入把你上一步生成的docs
 	"web_app/logger"
 	"web_app/middleware"
 
+	swaggerFiles "github.com/swaggo/files"
+
 	"github.com/gin-gonic/gin"
+	gs "github.com/swaggo/gin-swagger"
 )
 
 func SetUp() *gin.Engine {
@@ -19,6 +23,7 @@ func SetUp() *gin.Engine {
 	r.GET("/", func(context *gin.Context) {
 		context.String(http.StatusOK, "successful")
 	})
+	r.GET("/swagger/*any", gs.WrapHandler(swaggerFiles.Handler))
 	v1.POST("signup", controllers.SignUpHandler)
 	v1.POST("login", controllers.LoginHandler)
 	v1.Use(middleware.JWTAuthMiddleware())
@@ -29,7 +34,6 @@ func SetUp() *gin.Engine {
 		v1.GET("/post/:id", controllers.GetPostDetailHandler)
 		v1.GET("/posts/", controllers.GetPostListHandler)
 		v1.GET("/posts2/", controllers.GetPostListHandler2)
-		v1.GET("/posts3/", controllers.GetCommunityPostListHandler)
 		v1.POST("/vote", controllers.PostVoteController)
 	}
 	//r.NoRoute(func(context *gin.Context) {

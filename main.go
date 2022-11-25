@@ -22,6 +22,18 @@ import (
 
 //Go web开发较通用的脚手架模板
 
+// @title Gin_web_app
+// @version 这里写版本号
+// @description 网络论坛
+// @termsOfService http://swagger.io/terms/
+// @contact.name Geiwoyiquanbei
+// @contact.url http://www.swagger.io/support
+// @contact.email 914832432@qq.com
+// @license.name Api_support
+// @license.url http://www.apache.org/licenses/LICENSE-2.0.html
+// @host 127.0.0.1:8084
+// @BasePath /api/v1
+
 func main() {
 	//if len(os.Args) < 2 { //使用命令行时，在后面加上配置文件   ./web_app config.yaml
 	//	return
