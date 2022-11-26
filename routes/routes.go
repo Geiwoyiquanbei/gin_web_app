@@ -2,6 +2,7 @@ package routes
 
 import (
 	"net/http"
+	"time"
 	"web_app/controllers"
 	_ "web_app/docs" // 千万不要忘了导入把你上一步生成的docs
 	"web_app/logger"
@@ -18,7 +19,7 @@ func SetUp() *gin.Engine {
 	controllers.InitTrans("zh") //初始化gin框架内置的校验器使用的翻译器
 	//gin.SetMode(gin.ReleaseMode)
 	r := gin.New()
-	r.Use(logger.GinLogger(), logger.GinRecovery(true))
+	r.Use(logger.GinLogger(), logger.GinRecovery(true), middleware.RareLimitMiddleware(time.Second, 5))
 	v1 := r.Group("/api/v1")
 	r.GET("/", func(context *gin.Context) {
 		context.String(http.StatusOK, "successful")

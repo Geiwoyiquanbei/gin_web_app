@@ -778,3 +778,7 @@
 {"level":"INFO","time":"2022-11-25T11:56:32.928+0800","caller":"logger/logger.go:79","msg":"/swagger/doc.json","status":200,"method":"GET","path":"/swagger/doc.json","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56","errors":"","cost":0.0008402}
 {"level":"INFO","time":"2022-11-25T11:57:32.739+0800","caller":"web_app/main.go:90","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2022-11-25T11:57:32.741+0800","caller":"web_app/main.go:99","msg":"Server exiting"}
+{"level":"INFO","time":"2022-11-26T13:51:08.284+0800","caller":"web_app/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-26T13:51:08.323+0800","caller":"web_app/main.go:99","msg":"Server exiting"}
+{"level":"INFO","time":"2022-11-26T14:02:43.064+0800","caller":"web_app/main.go:90","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2022-11-26T14:02:43.121+0800","caller":"web_app/main.go:99","msg":"Server exiting"}
